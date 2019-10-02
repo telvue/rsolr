@@ -1,3 +1,5 @@
+== This is a TelVue Corp fork of the rsolr gem
+
 =RSolr
 {<img src="https://travis-ci.org/rsolr/rsolr.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/rsolr/rsolr] {<img src="https://badge.fury.io/rb/rsolr.svg" alt="Gem Version" />}[http://badge.fury.io/rb/rsolr]
 

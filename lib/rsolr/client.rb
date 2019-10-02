@@ -199,7 +199,7 @@ class RSolr::Client
         req.headers.merge!(request_context[:headers]) if request_context[:headers]
       end
 
-      { status: response.status.to_i, headers: response.headers, body: response.body.force_encoding('utf-8') }
+      { status: response.status.to_i, headers: response.headers, body: response.body.dup.force_encoding('utf-8') }
     rescue Errno::ECONNREFUSED, Faraday::Error::ConnectionFailed
       raise RSolr::Error::ConnectionRefused, request_context.inspect
     rescue Faraday::Error => e
