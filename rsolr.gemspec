@@ -4,7 +4,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "rsolr/version"
 
 Gem::Specification.new do |s|
-  s.name        = "rsolr"
+  s.name        = "telvue-rsolr"
   s.summary     = "A Ruby client for Apache Solr"
   s.description = %q{RSolr aims to provide a simple and extensible library for working with Solr}
   s.version     = RSolr::VERSION
@@ -19,10 +19,10 @@ Gem::Specification.new do |s|
                   "Matthew Rudy", "Fouad Mardini",
                   "Jeremy Hinegardner", "Nathan Witmer",
                   "Naomi Dushay",
-                  "\"shima\""]
-  s.email       = ["goodieboy@gmail.com"]
+                  "\"shima\"", "Ben Liu"]
+  s.email       = ["bliu@telvue.com"]
   s.license     = 'Apache-2.0'
-  s.homepage    = "https://github.com/rsolr/rsolr"
+  s.homepage    = "https://github.com/telvue/rsolr"
   s.rubyforge_project = "rsolr"
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")

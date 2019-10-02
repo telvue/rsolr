@@ -10,7 +10,7 @@ A simple, extensible Ruby client for Apache Solr.
 The code docs http://www.rubydoc.info/gems/rsolr
 
 == Installation:
-  gem install rsolr
+  gem install telvue-rsolr
 
 == Example:
   require 'rsolr'
